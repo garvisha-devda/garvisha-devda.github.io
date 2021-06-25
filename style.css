@@ -4,6 +4,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: #f9fafa;
 }
 
 .dot {
@@ -127,6 +128,46 @@ span.developer {
     margin-left: 10px;
 }
 
+.first-section h4 {
+    width: 100px;
+    font-weight: 600;
+    margin: auto;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.resume h1 {
+    padding-bottom: 50px;
+    font-weight: 700;
+    width: 60px;
+    margin: auto;
+}
+
+.year p {
+    font-size: 14px;
+}
+
+.head h6 {
+    font-weight: 700;
+}
+
+.head p {
+    max-width: 350px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.head ul li {
+    max-width: 350px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
 @media (max-width: 1000px) {
     .profile-img img {
         max-width: 300px;
@@ -176,4 +217,28 @@ span.developer {
         padding-left: 10px;
         padding-top: 35px;
     }
+}
+
+@media (max-width: 790px) {
+    .resume h1 {
+        text-align: start;
+        width: 100%;
+    }
+    .first-section h4 {
+        width: 100%;
+        text-align: start;
+    }
+    .year p {
+        font-size: 16px;
+    }
+    .head p {
+        max-width: 450px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+.project-img img {
+    width: 200px;
+    height: 200px;
 }
